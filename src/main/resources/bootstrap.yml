@@ -1,0 +1,10 @@
+spring:
+  application:
+     name: postgresClient
+
+info:
+  build:
+    group: ${group}
+    name: ${name}
+    description: ${description}
+    version: ${version}

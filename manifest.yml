@@ -1,0 +1,5 @@
+applications:
+- name: crunchyClient
+  path: target/postgres-client-1.0-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  instances: 1
