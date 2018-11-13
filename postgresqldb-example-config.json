@@ -1,0 +1,21 @@
+{
+  "resourceGroup": "azure-service-broker",
+  "location": "eastus",
+  "postgresqlServerName": "pg-test1",
+  "postgresqlServerParameters": {
+      "allowPostgresqlServerFirewallRules": [
+          {
+            "ruleName": "all",
+            "startIpAddress": "0.0.0.0",
+            "endIpAddress": "255.255.255.255"
+          }
+      ],
+      "properties": {
+          "version": "9.6",
+          "sslEnforcement": "Disabled",
+          "storageMB": 51200,
+          "administratorLogin": "dbadmin",
+          "administratorLoginPassword": "7cardCloud!"
+      }
+  }
+}
